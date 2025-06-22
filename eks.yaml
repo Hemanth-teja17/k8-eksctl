@@ -8,6 +8,7 @@ metadata:
 managedNodeGroups:
 - name: epense
   instanceTypes: [m5.large]
+  desiredCapacity: 2
   spot: true
 
 
